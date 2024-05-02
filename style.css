@@ -1,0 +1,10 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#home-page-section{
+    height: 100vh;
+    background: linear-gradient(to top, #3B448F, #6F7DFB);
+}
