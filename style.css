@@ -8,3 +8,18 @@ html, body {
     height: 100vh;
     background: linear-gradient(to top, #3B448F, #6F7DFB);
 }
+
+.navBar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar ul li {
+    display: inline-block;
+}
+
+.navBar ul {
+    display: flex;
+    justify-content: space-between;
+}
