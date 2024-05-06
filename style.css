@@ -59,7 +59,6 @@ button{
 #aside-page1{
     width: 457px;
     margin: 0 10vw;
-    margin-top: 5vw;
 }
 
 #aside-page1 h1{
@@ -83,14 +82,52 @@ button{
     padding: 15px 30px;
 }
 
+.objeto{
+    position: absolute;
+}
+
+.background-button
+{
+    width: 213px;
+    height: 80px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-left: 0.5vw;
+    background: linear-gradient(to top, #3B448F, #6F7DFB);
+    margin-top: -33px;
+    z-index: 1;
+
+}
+
 #student-enrolled{
     width: 213px;
-    height: 98;
+    height: 80px;
     background-color: #FFFFFF;
     text-align: center;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
+    justify-content: space-around;
+    margin-top: -3vw;
+    z-index: 2;
+}
+
+#student-enrolled h3,
+#student-enrolled p{
+    margin: 0;
+    padding: 0;
+    color: #023047;
+}
+
+#student-enrolled h3{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: -13px;
+}
+
+#student-enrolled p{
+    font-weight: 100;
+    padding-bottom: 10px;
 }
 
 #aside-middle-page1{
@@ -98,4 +135,36 @@ button{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#overall-rating
+{
+    width: 183px;
+    height: 80px;
+    background-color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    justify-content: space-around;  
+    margin-top: 12vw;
+}
+
+#overall-rating h3,
+#overall-rating p
+{
+    margin: 0;
+    padding: 0;
+    color: #023047
+}
+
+#overall-rating h3{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: -13px;
+}
+
+#overall-rating p{
+    font-weight: 100;
+    padding-bottom: 10px;
 }
