@@ -12,6 +12,7 @@ a{
     text-decoration: none;
 }
 
+/*Faz a pagina I ocupar todo o espaco da tela e como background coloca um degradê*/ 
 #home-page-section{
     height: 100vh;
     background: linear-gradient(to top, #3B448F, #6F7DFB);
@@ -25,8 +26,7 @@ a{
 
 .navBar ul li {
     display: inline-block;
-    margin-right: 7vw;
-    
+    margin-right: 7vw; 
 }
 
 .navBar ul {
@@ -36,6 +36,7 @@ a{
     margin: 0 10vw;
 }
 
+/*Faz com que o ultimo elemento da barra de navegaçao nao tenha barra a direita*/
 .navBar ul li:last-child{
     margin-right: 0;
 }
@@ -82,6 +83,7 @@ button{
     padding: 15px 30px;
 }
 
+/*Botoes da pagina 1*/
 .objeto{
     position: absolute;
 }
@@ -96,7 +98,6 @@ button{
     background: linear-gradient(to top, #3B448F, #6F7DFB);
     margin-top: -33px;
     z-index: 1;
-
 }
 
 #student-enrolled{
@@ -130,6 +131,7 @@ button{
     padding-bottom: 10px;
 }
 
+/*Posiciona os elementos no meio da tela*/
 #aside-middle-page1{
     position: absolute;
     top: 50%;
@@ -148,6 +150,8 @@ button{
     border-radius: 20px;
     justify-content: space-around;  
     margin-top: 12vw;
+    margin-left: -4vw;
+    z-index: 2;
 }
 
 #overall-rating h3,
@@ -167,4 +171,41 @@ button{
 #overall-rating p{
     font-weight: 100;
     padding-bottom: 10px;
+}
+
+.background-button2
+{
+    width: 183px;
+    height: 80px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-left: -3.5vw;
+    background: linear-gradient(to top, #3B448F, #6F7DFB);
+    margin-top: 12.5vw;
+    z-index: 1;
+}
+
+#image-page-1{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 400px;
+    height: auto;
+}
+
+#students-say
+{
+    height: 100vh;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#main-content-page-2
+{
+    border: 1px solid red;
+    margin: 0 9vw;
+    position: absolute;
 }
