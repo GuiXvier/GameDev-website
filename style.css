@@ -210,8 +210,8 @@ button{
     position: absolute;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
+    
 }
 
 #main-content-page-2 p{
@@ -231,4 +231,40 @@ button{
     font-size: 18;
     font-weight: bold;
 }
+
+/*Página 3 ================================================================*/
+
+#our-courses{
+    height: 100vh;
+    background: linear-gradient(to top, #3B448F, #6F7DFB);
+}
+
+#our-courses h1{
+    font-size: 60px;
+    color: #FFFFFF;
+    margin: 0 9vw;
+    padding: 2vw 0;
+    text-align: center;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 6vw;
+}
+
+#page-3-button{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 2vw;
+    margin-right: 6vw;
+    width: 150px;
+    background-color: #DA722C;
+    border-radius: 20px;
+}
+
+
+
+
 
