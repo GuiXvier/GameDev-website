@@ -5,6 +5,7 @@ html, body {
     font-size: 16px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
 }
 
 a{
@@ -230,6 +231,7 @@ button{
     background-color: #DA722C;
     font-size: 18;
     font-weight: bold;
+    
 }
 
 /*Página 3 ================================================================*/
@@ -254,7 +256,6 @@ button{
 }
 
 #page-3-button{
-    position: fixed;
     right: 0;
     bottom: 0;
     margin-bottom: 2vw;
@@ -264,7 +265,40 @@ button{
     border-radius: 20px;
 }
 
+/*Página 4 ================================================================*/
 
+#get-our-app{
+    height: 70vh;
+}
 
+#pg4-content
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#pg4-content h1 {
+    font-size: 64px;
+    color: #023047;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#pg4-content p{
+    font-size: 16;
+    font-weight: 100;
+    color: #023047;
+}
+
+#pg4-images
+{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
 
 
