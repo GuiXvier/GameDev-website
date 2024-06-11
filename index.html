@@ -9,150 +9,161 @@
 </head>
 
 <body>
-    <!--Pagina 1-->
-    <section id="home-page-section">
-        <!--Barra de navegação da página 1-->
-        <nav class="navBar">
-            <ul>
-                <div id="GD">
-                    <li><a href="#">GD.</a></li>
+    <div class="container">
+        <!--Pagina 1-->
+        <section id="home-page-section">
+            <!--Barra de navegação da página 1-->
+            <nav class="navBar">
+                <ul>
+                    <div id="GD">
+                        <li><a href="#">GD.</a></li>
+                    </div>
+                    <!--Itens da barra de navegacao-->
+                    <div id="info">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Our Work</a></li>
+                        <li><button type="button" id="nav-button">Enrol Now</button></li>
+                    </div>
+
+                </ul>
+            </nav>
+            <!--Fim da barra de navegação da página 1-->
+
+            <!--Textos a esquerda da pagina 1-->
+            <div class="page1-rowls">
+                <div class="first-row">
+                    <aside id="aside-page1">
+                        <h1>Learn the art of Game Dev</h1>
+                        <p>This is a comprehensive course on Game Development. You will learn everything from generating
+                            an idea
+                            to
+                            publishing your games to different platforms.</p>
+                        <Button>Enrol Now</Button>
+                    </aside>
                 </div>
-                <!--Itens da barra de navegacao-->
-                <div id="info">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Our Work</a></li>
-                    <li><button type="button" id="nav-button">Enrol Now</button></li>
+
+                <div class="second-row">
+                    <!--Botoes e afins do meio para direita na Pagina 1-->
+                    <aside id="aside-middle-page1">
+
+                        <!--Botao: Students Enroll-->
+                        <div class="objeto" id="student-enrolled">
+                            <h3>32K</h3>
+                            <p>Students Enrolled</p>
+                        </div>
+
+                        <!--Background do botao Students Enroll-->
+                        <div class="background-button objeto"></div>
+
+                        <!--Botao: Rating-->
+                        <div class="objeto" id="overall-rating">
+                            <h3>4.7⭐</h3>
+                            <p>Overall Rating</p>
+                        </div>
+
+                        <div class="background-button2 objeto"></div>
+                    </aside>
+
+                    <img id="image-page-1" src="img/Student-girl.png" alt="a student girls with thumbs up">
+                </div>
+            </div>
+        </section>
+
+        <!--Pagina 2-->
+        <section id="students-say">
+            <div id="main-content-page-2">
+                <aside>
+                    <img src="img/Testimonials Left.png" alt="reviews of the course">
+                </aside>
+                <div>
+                    <h2>What our students say</h2>
+                    <p>All students get access to all the videos and also the source code of the projects.</p>
+                    <p>You will also have access to a private Discord channel where you can discuss your doubts.</p>
+                    <button id="button-learn-more">Learn More</button>
+                </div>
+            </div>
+        </section>
+
+        <!--Pagina 3-->
+        <section id="our-courses">
+            <div id="pg3-content">
+                <div class="text">
+                    <h1>Our Courses</h1>
                 </div>
 
-            </ul>
-        </nav>
-        <!--Fim da barra de navegação da página 1-->
+                <div class="images">
+                    <img src="img/Course2.png" alt="Game desing essentials course">
 
-        <!--Textos a esquerda da pagina 1-->
-        <aside id="aside-page1">
-            <h1>Learn the art of Game Dev</h1>
-            <p>This is a comprehensive course on Game Development. You will learn everything from generating an idea to
-                publishing your games to different platforms.</p>
-            <Button>Enrol Now</Button>
-        </aside>
+                    <img src="img/Course.png" alt="Unity Game Engine Fundamentals course">
+                </div>
 
-        <!--Botoes e afins do meio para direita na Pagina 1-->
-        <aside id="aside-middle-page1">
-
-            <!--Botao: Students Enroll-->
-            <div class="objeto" id="student-enrolled">
-                <h3>32K</h3>
-                <p>Students Enrolled</p>
+                <button id="page-3-button">All courses</button>
             </div>
 
-            <!--Background do botao Students Enroll-->
-            <div class="background-button objeto"></div>
+        </section>
 
-            <!--Botao: Rating-->
-            <div class="objeto" id="overall-rating">
-                <h3>4.7⭐</h3>
-                <p>Overall Rating</p>
-            </div>
-
-            <div class="background-button2 objeto"></div>
-        </aside>
-
-        <img id="image-page-1" src="img/Student-girl.png" alt="student-girl">
-    </section>
-
-    <!--Pagina 2-->
-    <section id="students-say">
-        <div id="main-content-page-2">
-            <aside>
-                <img src="img/Testimonials Left.png" alt="">
-            </aside>
-            <div>
-                <h2>What our students say</h2>
-                <p>All students get access to all the videos and also the source code of the projects.</p>
-                <p>You will also have access to a private Discord channel where you can discuss your doubts.</p>
-                <button id="button-learn-more">Learn More</button>
-            </div>
-        </div>
-    </section>
-
-    <!--Pagina 3-->
-    <section id="our-courses">
-        <div id="pg3-content">
-            <div class="text">
-                <h1>Our Courses</h1>
-            </div>
-
-            <div class="images">
-                <img src="img/Course2.png" alt="mario">
-
-                <img src="img/Course.png" alt="videogame">
-            </div>
-
-            <button id="page-3-button">All courses</button>
-        </div>
-
-    </section>
-
-    <!--Pagina 4-->
-    <section id="get-our-app">
-        <div id="pg4-content">
-            <div>
-                <h1>Get our App</h1>
-                <p>You can use our App for better experience on smartphones</p>
-            </div>
-            <div id="pg4-images">
-                <img src="img/Frame 3.png" alt="">
-                <img src="img/Frame 4.png" alt="">
-            </div>
-        </div>
-
-    </section>
-
-    <!--Pagina 5-->
-    <section id="rodape">
-        <div id="pg5-container">
-            <!--Quick Links-->
-            <div>
-                <h4>Quick Links</h4>
-                <div class="links">
-                    <a href="#">About us</a>
-                    <a href="#">Contact Us</a>
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms & Conditions</a>
+        <!--Pagina 4-->
+        <section id="get-our-app">
+            <div id="pg4-content">
+                <div>
+                    <h1>Get our App</h1>
+                    <p>You can use our App for better experience on smartphones</p>
+                </div>
+                <div id="pg4-images">
+                    <img src="img/Frame 3.png" alt="App store">
+                    <img src="img/Frame 4.png" alt="Google play">
                 </div>
             </div>
 
-            <div>
-                <h4>Course</h4>
-                <div class="links">
-                    <a href="#">Log In</a>
-                    <a href="#">Download</a>
-                    <a href="#">All Courses</a>
+        </section>
+
+        <!--Pagina 5-->
+        <section id="rodape">
+            <div id="pg5-container">
+                <!--Quick Links-->
+                <div aria-label="Quick links">
+                    <h4>Quick Links</h4>
+                    <div class="links">
+                        <a href="#">About us</a>
+                        <a href="#">Contact Us</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms & Conditions</a>
+                    </div>
+                </div>
+
+                <div aria-label="Course">
+                    <h4>Course</h4>
+                    <div class="links">
+                        <a href="#">Log In</a>
+                        <a href="#">Download</a>
+                        <a href="#">All Courses</a>
+                    </div>
+                </div>
+
+                <div aria-label="Contact Us">
+                    <h4>Contact Us</h4>
+                    <div class="links">
+                        <a href="#">contact@email.com</a>
+                    </div>
+                    <div id="links-image">
+                        <a href="#"><img src="img/FacebookLogo.png" alt="facebook"></a>
+                        <a href="#"><img src="img/InstagramLogo.png" alt="Instagram"></a>
+                    </div>
+
+                    <!--Form-->
+                    <div class="form-container">
+                        <form action="#" method="post" class="form-text-button">
+                            <input type="text" name="textInput" placeholder="Email Address">
+                            <button type="submit" class="send-button">Subscribe</button>
+                        </form>
+                    </div>
+
                 </div>
             </div>
+        </section>
+    </div>
 
-            <div>
-                <h4>Contact Us</h4>
-                <div class="links">
-                    <a href="#">contact@email.com</a>
-                </div>
-                <div id="links-image">
-                    <a href="#"><img src="img/FacebookLogo.png" alt="facebook"></a>
-                    <a href="#"><img src="img/InstagramLogo.png" alt="Instagram"></a>
-                </div>
-
-                <!--Form-->
-                <div class="form-container">
-                    <form action="#" method="post" class="form-text-button">
-                        <input type="text" name="textInput" placeholder="Email Address">
-                        <button type="submit" class="send-button">Subscribe</button>
-                    </form>
-                </div>
-
-            </div>
-        </div>
-    </section>
 </body>
 
 </html>
