@@ -9,154 +9,43 @@
 </head>
 
 <body>
-    <div class="container">
-        <!--Pagina 1-->
-        <section id="home-page-section">
-            <!--Barra de navegação da página 1-->
-            <nav class="navBar">
-                <ul>
-                    <div id="GD">
-                        <li><a href="#">GD.</a></li>
-                    </div>
-                    <!--Itens da barra de navegacao-->
-                    <div id="info">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Our Work</a></li>
-                        <li><button type="button" id="nav-button">Enrol Now</button></li>
-                    </div>
-
-                </ul>
-            </nav>
-            <!--Fim da barra de navegação da página 1-->
-
-            <!--Textos a esquerda da pagina 1-->
-            <div class="page1-rowls">
-                <div class="first-row">
-                    <aside id="aside-page1">
-                        <h1>Learn the art of Game Dev</h1>
-                        <p>This is a comprehensive course on Game Development. You will learn everything from generating
-                            an idea
-                            to
-                            publishing your games to different platforms.</p>
-                        <Button>Enrol Now</Button>
-                    </aside>
+    <div class="background">
+        <section class="page1-home">
+            <div class="container">
+                <div class="page1-navbar">
+                    <h1 class="navBar-logo">GD.</h1>
+                    <nav class="navBar">
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Our Work</a></li>
+                            <li><Button class="button navBar-button">Enrow now</Button></li>
+                        </ul>
+                    </nav>
                 </div>
 
-                <div class="second-row">
-                    <!--Botoes e afins do meio para direita na Pagina 1-->
-                    <aside id="aside-middle-page1">
+                <div class="page1-content">
+                    <div class="page1-content-left">
+                        <h1>
+                            Learn the art of Game Dev
+                        </h1>
+                        <p>
+                            This is a comprehensive course on Game Development. You will learn everything from
+                            generating an
+                            idea to publishing your games to different platforms.
+                        </p>
+                        <button class="button page1-content-left-button">Enrow now</button>
+                    </div>
 
-                        <!--Botao: Students Enroll-->
-                        <div class="objeto" id="student-enrolled">
-                            <h3>32K</h3>
-                            <p>Students Enrolled</p>
+                    <div class="container-buttons-img">
+                        <div class="page1-content-midle">
+                            <img class="img-enroll" src="img/Achievements.png" alt="32K Students Enrolled">
+                            <img class="img-rating" src="img/Group 1.png" alt="4.7 rating">
                         </div>
 
-                        <!--Background do botao Students Enroll-->
-                        <div class="background-button objeto"></div>
-
-                        <!--Botao: Rating-->
-                        <div class="objeto" id="overall-rating">
-                            <h3>4.7⭐</h3>
-                            <p>Overall Rating</p>
+                        <div class="page1-content-right">
+                            <img src="img/Student-girl.png" alt="a student girl">
                         </div>
-
-                        <div class="background-button2 objeto"></div>
-                    </aside>
-
-                    <img id="image-page-1" src="img/Student-girl.png" alt="a student girls with thumbs up">
-                </div>
-            </div>
-        </section>
-
-        <!--Pagina 2-->
-        <section id="students-say">
-            <div id="main-content-page-2">
-                <aside>
-                    <img src="img/Testimonials Left.png" alt="reviews of the course">
-                </aside>
-                <div>
-                    <h2>What our students say</h2>
-                    <p>All students get access to all the videos and also the source code of the projects.</p>
-                    <p>You will also have access to a private Discord channel where you can discuss your doubts.</p>
-                    <button id="button-learn-more">Learn More</button>
-                </div>
-            </div>
-        </section>
-
-        <!--Pagina 3-->
-        <section id="our-courses">
-            <div id="pg3-content">
-                <div class="text">
-                    <h1>Our Courses</h1>
-                </div>
-
-                <div class="images">
-                    <img src="img/Course2.png" alt="Game desing essentials course">
-
-                    <img src="img/Course.png" alt="Unity Game Engine Fundamentals course">
-                </div>
-
-                <button id="page-3-button">All courses</button>
-            </div>
-
-        </section>
-
-        <!--Pagina 4-->
-        <section id="get-our-app">
-            <div id="pg4-content">
-                <div>
-                    <h1>Get our App</h1>
-                    <p>You can use our App for better experience on smartphones</p>
-                </div>
-                <div id="pg4-images">
-                    <img src="img/Frame 3.png" alt="App store">
-                    <img src="img/Frame 4.png" alt="Google play">
-                </div>
-            </div>
-
-        </section>
-
-        <!--Pagina 5-->
-        <section id="rodape">
-            <div id="pg5-container">
-                <!--Quick Links-->
-                <div aria-label="Quick links">
-                    <h4>Quick Links</h4>
-                    <div class="links">
-                        <a href="#">About us</a>
-                        <a href="#">Contact Us</a>
-                        <a href="#">Privacy Policy</a>
-                        <a href="#">Terms & Conditions</a>
-                    </div>
-                </div>
-
-                <div aria-label="Course">
-                    <h4>Course</h4>
-                    <div class="links">
-                        <a href="#">Log In</a>
-                        <a href="#">Download</a>
-                        <a href="#">All Courses</a>
-                    </div>
-                </div>
-
-                <div aria-label="Contact Us">
-                    <h4>Contact Us</h4>
-                    <div class="links">
-                        <a href="#">contact@email.com</a>
-                    </div>
-                    <div id="links-image">
-                        <a href="#"><img src="img/FacebookLogo.png" alt="facebook"></a>
-                        <a href="#"><img src="img/InstagramLogo.png" alt="Instagram"></a>
-                    </div>
-
-                    <!--Form-->
-                    <div class="form-container">
-                        <form action="#" method="post" class="form-text-button">
-                            <input type="text" name="textInput" placeholder="Email Address">
-                            <button type="submit" class="send-button">Subscribe</button>
-                        </form>
                     </div>
 
                 </div>
@@ -164,6 +53,91 @@
         </section>
     </div>
 
+    <section class="page2-reviews">
+        <div class="container">
+            <div class="page2-content">
+                <div class="reviews">
+                    <img src="img/Testimonials Left.png" alt="">
+                </div>
+                <div class="student-says">
+                    <h1>What our students say</h1>
+                    <p>
+                        All students get access to all the videos and also the source code of the projects.
+                        You will also have access to a private Discord channel where you can discuss your doubts.
+                    </p>
+                    <button class="button">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page3-courses background">
+        <div class="container">
+            <div class="page3-content">
+                <h1>Our Courses</h1>
+                <div class="courses">
+                    <img src="img/Course2.png" alt="Game Desing Essentials">
+                    <img src="img/Course.png" alt="Unity Game Engine Fundamentals">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page4-app">
+        <div class="container">
+            <div class="page4-content">
+                <div class="string-page4">
+                    <h1>Get our App</h1>
+                    <p>You can use our App for better experience on smartphones</p>
+                </div>
+                <div class="div-imgs">
+                    <img src="img/Frame 3.png" alt="App Store">
+                    <img src="img/Frame 4.png" alt="Play Store">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="quick-links">
+                    <h4 class="title-link">Quick Links</h4>
+                    <div class="links">
+                        <a href="#">About Us</a>
+                        <a href="#">Contact Us</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms & Conditions</a>
+                    </div>
+                </div>
+
+                <div class="Course-links">
+                    <h4 class="title-link">Course</h4>
+                    <div class="links">
+                        <a href="#">Log In</a>
+                        <a href="#">Download</a>
+                        <a href="#">All Courses</a>
+                    </div>
+                </div>
+
+                <div class="contact-us">
+                    <h4 class="title-link">Contact Us</h4>
+                    <div class="links">
+                        <p>contact@email.com</p>
+                        <div class="contact-us-imgs">
+                            <img src="img/FacebookLogo.png" alt="Facebook Logo">
+                            <img src="img/InstagramLogo.png" alt="InstagramLogo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyrigth">
+                <p>This website is developed by Guilherme Xavier</p>
+            </div>
+        </div>
+        </div>
+    </footer>
 </body>
 
 </html>
